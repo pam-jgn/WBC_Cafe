@@ -19,7 +19,6 @@ body {
 
 #home {
     background-image: url(images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
-    background-blend-mode: luminosity;
     min-height: 100vh;
 }
 
@@ -35,7 +34,7 @@ img {
     max-width: 100%;
 }
 
-.logo{
+.logo {
     width: 210px;
     margin-top: 14px;
 }
@@ -53,7 +52,7 @@ img {
 }
 
 .main-nav a{
-    color: #432;
+    color: #000000;
 }
 
 .main-nav a:hover{
@@ -79,6 +78,7 @@ img {
 .home-content p{
     font-size: 1.123rem;
     margin: 10px 0 42px;
+    color: #fff;
 }
 
 /*見出し*/
@@ -87,6 +87,7 @@ img {
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font-weight: normal;
+    color: #fff;
 }
 
 /*ボタン*/
